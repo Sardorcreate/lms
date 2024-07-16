@@ -1,0 +1,29 @@
+POST http://localhost:8080/auth/login
+Content-Type: application/json
+
+{
+  "login": "sardor",
+  "password": "sardor3105"
+}
+
+###
+
+POST http://localhost:8080/auth/signup
+Content-Type: application/json
+Authorization:Bearer eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3MjA1MjAyMjYsImV4cCI6MTcyMDUyMzgyNiwiaXNzIjoiU2FyZG9yIiwiaWQiOjEsImxvZ2luIjoic2FyZG9yIiwicm9sZSI6IlJPTEVfU1VQRVJBRE1JTiJ9.SwwXF35yciPXL6QljkcUzq9SdmqbOXwinBAnaEvxGsw
+
+{
+  "name": "Doston",
+  "surname": "Ostonov",
+  "login": "doston",
+  "password": "doston0912",
+  "phone": "+998908909808",
+  "status": "ACTIVE",
+  "visible": true,
+  "imagePath": "C:\\Users\\Asus\\Pictures\\qoy.jpg",
+  "passportDto": {
+    "jshshir": "58998748121421",
+    "passportNumber": 1239276,
+    "passportSerie": "AD"
+  }
+}

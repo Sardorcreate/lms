@@ -1,0 +1,19 @@
+### Authorization
+POST https://notify.eskiz.uz/api/auth/login
+Content-Type: application/json
+
+{
+  "email": "if.magiic3105@gmail.com",
+  "password": "xLgFWgRMEeagUeEAJRs0zHiBvhvvfxgvHzThXBZE"
+}
+
+### Send sms
+POST https://notify.eskiz.uz/api/message/sms/send
+Content-Type: application/json
+AUTHORIZATION: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MjIwODA5MzYsImlhdCI6MTcxOTQ4ODkzNiwicm9sZSI6InRlc3QiLCJzaWduIjoiODM2ZmQxNjY4NjUyYjhlNzBlZjQ3MjVmYzY4ZWM2YmVlM2NkMDFjZjA5OTgzNjA1NTA4MmU5NTdlZmExMDYxZSIsInN1YiI6Ijc3MDMifQ.MgsdPo0DRCIkdUe7gxzKOF8OpqQBJ6BWS0DmIFhBF-o
+
+{
+  "mobile_phone": "+998908209066",
+  "message": "Bu Eskiz dan test",
+  "from": "4546"
+}

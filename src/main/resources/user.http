@@ -1,0 +1,55 @@
+PUT http://localhost:8080/user/update/rsv
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3MTk0ODM5NDMsImV4cCI6MTcxOTQ4NzU0MywiaXNzIjoiU2FyZG9yIiwiaWQiOjEsImxvZ2luIjoic2FyZG9yIiwicm9sZSI6IlJPTEVfU1VQRVJBRE1JTiJ9.RHOOVuM768UHgNAvRJZof7Ow5o_a0CjM9ZqNORkQsgU
+
+{
+  "login": "najmiddin",
+  "role": "ROLE_STUDENT",
+  "status": "ACTIVE",
+  "visible": true
+}
+
+###
+
+PUT http://localhost:8080/user/update/nsp
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3MTk0ODM5NDMsImV4cCI6MTcxOTQ4NzU0MywiaXNzIjoiU2FyZG9yIiwiaWQiOjEsImxvZ2luIjoic2FyZG9yIiwicm9sZSI6IlJPTEVfU1VQRVJBRE1JTiJ9.RHOOVuM768UHgNAvRJZof7Ow5o_a0CjM9ZqNORkQsgU
+
+{
+  "login": "najmiddin",
+  "name": "Najmiddin",
+  "surname": "Mamasoatov",
+  "password": "najmiddin0108"
+}
+
+###
+
+PUT http://localhost:8080/user/update/i
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3MjA0MTczNzIsImV4cCI6MTcyMDQyMDk3MiwiaXNzIjoiU2FyZG9yIiwiaWQiOjEsImxvZ2luIjoic2FyZG9yIiwicm9sZSI6IlJPTEVfU1VQRVJBRE1JTiJ9.GyLNVSMfQn-ly8bvSR461TwGqZNtUVzyYUih_xFminM
+
+{
+  "login": "sardor",
+  "imagePath": "C:\\Users\\Asus\\Pictures\\nat"
+}
+
+###
+
+GET http://localhost:8080/user/read/all
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3MjA1MjM5MTEsImV4cCI6MTcyMDUyNzUxMSwiaXNzIjoiU2FyZG9yIiwiaWQiOjEsImxvZ2luIjoic2FyZG9yIiwicm9sZSI6IlJPTEVfU1VQRVJBRE1JTiJ9.ZpqxIDBZXLUp-KIKyxiL84JzXbLE0k9zk0Qg2LZgQiE
+###
+
+GET http://localhost:8080/user/read/1/5
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3MjA1MjM5MTEsImV4cCI6MTcyMDUyNzUxMSwiaXNzIjoiU2FyZG9yIiwiaWQiOjEsImxvZ2luIjoic2FyZG9yIiwicm9sZSI6IlJPTEVfU1VQRVJBRE1JTiJ9.ZpqxIDBZXLUp-KIKyxiL84JzXbLE0k9zk0Qg2LZgQiE
+
+###
+
+GET http://localhost:8080/user/get_user/list
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3MjA3ODQ0MjIsImV4cCI6MTcyMDc4ODAyMiwiaXNzIjoiU2FyZG9yIiwiaWQiOjEsImxvZ2luIjoic2FyZG9yIiwicm9sZSI6IlJPTEVfU1VQRVJBRE1JTiJ9.Hxi08GvLZujle9HMGcCY-T03CU7Mg5-mLFjU63Hd9SM
+
+{
+  "name": "Najmiddin",
+  "surname": "Mamasoatov",
+  "phone": "+998991202042"
+}

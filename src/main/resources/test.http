@@ -1,0 +1,17 @@
+POST http://localhost:8080/test/create
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3MjExMzI1NzEsImV4cCI6MTcyMTEzNjE3MSwiaXNzIjoiU2FyZG9yIiwiaWQiOjEsImxvZ2luIjoic2FyZG9yIiwicm9sZSI6IlJPTEVfU1VQRVJBRE1JTiJ9.BZelSwb9jV9lMz7u9JWV7qiURTdi7z2eunwHfexcjvQ
+Content-Type: application/json
+
+{
+  "question": "Who has the most number of goals in football history?",
+  "firstOption": "Ronaldo",
+  "secondOption": "Messi",
+  "thirdOption": "Pele",
+  "fourthOption": "Eusebio",
+  "status": "ACTIVE"
+}
+
+###
+
+GET http://localhost:8080/test/start
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3MjExMzI1NzEsImV4cCI6MTcyMTEzNjE3MSwiaXNzIjoiU2FyZG9yIiwiaWQiOjEsImxvZ2luIjoic2FyZG9yIiwicm9sZSI6IlJPTEVfU1VQRVJBRE1JTiJ9.BZelSwb9jV9lMz7u9JWV7qiURTdi7z2eunwHfexcjvQ
