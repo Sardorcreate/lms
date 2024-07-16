@@ -4,6 +4,7 @@ import com.company.dto.TestDto;
 import com.company.entity.Test;
 import com.company.enums.Status;
 import com.company.repository.TestRepository;
+import com.company.repository.UserRepository;
 import com.company.util.RandomUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -14,6 +15,9 @@ import java.util.Random;
 
 @Service
 public class TestService {
+
+    @Autowired
+    private UserRepository userRepository;
 
     @Autowired
     private TestRepository testRepository;
